@@ -1,7 +1,7 @@
 # Employees Tracker
 Pair of employees who have worked together.
 
-Small application created using Spring,Maven,Thymeleaf,HTML,CSS and MySQL.
+Small object-oriented Java application created using Spring,Maven,Thymeleaf,HTML,CSS and MySQL.
 In order to run it a file name needs to be inputed in the console - example: (employees.txt). File needs to be in the same location as as the **src** folder.
 in the **src/main/resources/application.properties** you need to populate :
 
