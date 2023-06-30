@@ -10,7 +10,7 @@ in the **src/main/resources/application.properties** you need to populate :
 **spring.datasource.password=** // password of your MySQL Database
 
 # Repository URL
-[I'm an inline-style link](https://github.com/DanielGrozdanov/Daniel-Grozdanov-employees)
+[Repository](https://github.com/DanielGrozdanov/Daniel-Grozdanov-employees)
 
 # UI
 
