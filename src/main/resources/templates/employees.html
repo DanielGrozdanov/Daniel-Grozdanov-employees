@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="/css/custom-style.css">
+</head>
+<body>
+<div th:if="${not #lists.isEmpty(pairs)}" class="custom-style">
+    <h2>Employees Table</h2>
+    <table class="table table-stripped">
+        <tr>
+            <th>Employee ID #1</th>
+            <th>Employee ID #2</th>
+            <th>Project ID</th>
+            <th>Days worked</th>
+        </tr>
+        <tr th:each="empl : ${pairs}">
+            <td th:text="${empl.firstEmployeeId}"></td>
+            <td th:text="${empl.secondEmployeeId}"></td>
+            <td th:text="${empl.projectId}"></td>
+            <td th:text="${empl.durationWorkingTogether}"></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
